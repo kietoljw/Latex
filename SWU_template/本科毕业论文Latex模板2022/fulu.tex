@@ -1,0 +1,58 @@
+%\begin{appendix}
+\section{Matlab 代码} \label{appendix:A}
+
+下面是我写的一个~Matlab
+代码，这个代码可以给出下面这个
+1989年第30届国际数学奥林匹克（IMO）竞赛的一道试题的一个解答：\vspace{.5cm}
+
+\noindent 求证：集合$\Set{1, 2,
+\cdots,1989}$可以分为$117$个互不相交的子集
+$$A_i, \qquad i = 1, 2, \cdots,117$$
+使得
+\begin{enumerate}
+    \item 每个$A_i$都含有$17$个元素；
+    \item 每个$A_i$中所有元素之和相同。
+\end{enumerate}\vspace{.5cm}
+
+这个代码的文件名为~{\tt equalsumpartition.m}，运行时在~Matlab 命令窗口键入下面的命令
+\begin{verbatim}
+        equalsumpartition(1989,117)
+\end{verbatim}
+然后回车即可。
+这里引入所用的命令是
+\begin{verbatim}
+       \lstinputlisting[language=Matlab]{codes/equalsumpartition.m}
+\end{verbatim}
+注意，因为文件~{\tt equalsumpartition.m} 存放在子文件夹~{\tt codes }中，所以引入时，文件名前面还必须加上路径名~{\tt codes/}。
+%\textbf{\textcolor[rgb]{0.98,0.00,0.00}{ Input Matlab source:}}
+\lstinputlisting[language=Matlab]{codes/equalsumpartition.m}
+\section{Mathematica 代码}\label{appendix:B}
+按第~\ref{sec:codeinludsion} 节介绍的方法直接引入~Mathematica 代码目前还有一些问题，一个临时解决办法是先将~Mathematica 代码另存为.txt 文件，然后用命令
+\begin{verbatim}
+        \lstinputlisting[language=Mathematica]{myfile.txt}
+\end{verbatim}
+引入。%注意，这里和第~\ref{sec:codeinludsion} 节介绍的方法的不同之处是没有了\verb|[language=代码语言]| 这一部分。
+下面就是一个按这种方法引入的一个~Mathematica 代码：{\tt primeSieve.txt}，这里用的命令是
+\begin{verbatim}
+       \lstinputlisting[language=Mathematica]{codes/primeSieve.txt}
+\end{verbatim}
+注意，文件~{\tt primeSieve.txt} 也存放在子文件夹~{\tt codes} 中。
+这个代码实现了著名的~Eratosthenes 筛法。对一个任意给定的正整数$n$，通过~Eratosthenes 筛法，可以找出所有不超过$n$的素数。本代码首先在$[50,200]$中随机地选一个数作为$n$（如果要用其它的数，可通过调整代码中赋给的~{\tt m} 和~{\tt M} 的值来实现），然后给出所有不超过$n$的素数。如果要查看中间结果，只需将一个非$0$ 的值赋给变量$d$，然后运行程序即可。
+\lstinputlisting[language=Mathematica]{codes/primeSieve.txt}
+\section{R 代码}\label{appendix:C}
+此例子由彭作祥教授提供，是$\mathbf{R}$软件下编写的程序，为寿险精算中的一个简单例子。计算
+在每年末偿还金额中的利息和本金金额。这个代码的文件名为~{\tt
+example.R}，在$\mathbf{R}$中打开运行即可。引入命令是
+\begin{verbatim}
+       \lstinputlisting[language=R]{codes/example.R}
+\end{verbatim}
+\lstinputlisting[language=R]{codes/example.R}
+\section{DES C++ 代码}\label{appendix:D}
+下面是一个文件名为~{\tt mytestdes.cpp} 的~C++ 代码，引入命令是
+\begin{verbatim}
+       \lstinputlisting[language={[ANSI]C++}]{codes/mytestdes.cpp}
+\end{verbatim}
+这个代码实现了著名的对称密码算法~DES。
+%\textbf{\textcolor[rgb]{0.98,0.00,0.00}{ Input Matlab source:}}
+\lstinputlisting[language={[ANSI]C++}]{codes/mytestdes.cpp}
+%\end{appendix}

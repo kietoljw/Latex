@@ -1,0 +1,53 @@
+\begin{center}
+{\heiti\bf\LARGE\zihao{3}{\biaoti\\}}
+{\cobiaoti}
+
+\vspace{0.3cm}
+{\zihao{-4}\minzi}
+
+{\zihao{5}\university\school，\city}
+\end{center}
+\addcontentsline{toc}{section}{摘要}
+\begin{center}
+\begin{minipage}[t]{13cm}
+\noindent{\zihao{5}{\bf 摘要：}
+\fangsong
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+% 请填入中文摘要：
+本模版是为{\university\school}本科毕业生而设计的，
+模版根据{\school}论文的Word模版中所描述的要求编写。目的是简化和
+规范学位论文的撰写，使得论文作者可以将精力集中到论文的内容上而不是浪费在版面设置上。
+使用者只需了解{\LaTeX}的基本概念即可使用本模版。
+
+}\vspace{0.1cm}
+
+\noindent{\songti\zihao{5}{\bf 关键词：} \LaTeX ；模版；论文；版面；参数
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}\vspace{0.6cm}
+\end{minipage}
+\end{center}
+\begin{center}
+{\Large\bf\zihao{4}\enbiaoti}
+
+\vspace{0.3cm}
+{\normalsize\zihao{5}\englishname}
+
+{\small School of Mathematics \& Statistics， Southwest University，Chongqing 400715}
+\end{center}
+\addcontentsline{toc}{section}{Abstract}
+\noindent{\normalsize\zihao{5}{\bf Abstract：}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+% 请填入英文摘要：
+This {\LaTeX} template is designed for the undergraduate students of
+the School of Mathematics and Statistics at the Southwest
+University. The design of the template followed the undergraduates
+thesis requirements described in the Word templates. Our purposes
+are to reduce the editing workload for the students, standardize the
+layout of their theses. Only basic knowledge of the {\LaTeX} is
+required to use this template.
+
+}\vspace{0.1cm}
+
+\noindent{\normalsize\zihao{5}{\bf Key words：} {\LaTeX}；template；thesis；layout；parameters}
+%\end{minipage}
+%\end{center}

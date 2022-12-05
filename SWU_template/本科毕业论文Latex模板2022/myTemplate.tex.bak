@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 文件名 :     myTemplate.tex          %
+%                                      %
+% 作者:        包小敏                  %
+%                                      %
+% 单位:        西南大学数学与统计学院  %
+%                                      %
+% 创建于:      2011年02月21日          %
+% 最后修改于:  2019年11月28日          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{ctexart}
+%======================Include Packages========================
+\usepackage{preample/SWUthesis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{filesforteachers/zhidaojiaoshigeifen}% 指导教师评阅及打分
+\input{filesforteachers/jiaochageifen}      % 交叉评阅及打分
+\input{filesforteachers/dabianchengji}      % 答辩成绩
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeindex%生成索引
+%===========================请填入相应的内容===================%
+\newcommand{\university}{西南大学}                             %
+\newcommand{\school}    {数学与统计学院}                       %
+\newcommand{\city}      {重庆 400715}                          %
+\newcommand{\biaoti}{本科毕业论文{\LaTeX}模版}                 % 中文论文题目。如题目太长，可把一部分放在副标题的位置
+\newcommand{\cobiaoti}{---附带简单的使用说明}                  % 副标题，没有的话将“---附带简单的使用说明”删除
+\newcommand{\enbiaoti}{Undergraduate Thesis {\LaTeX} Template} % 英文论文题目
+\newcommand{\nianji}  {2016 级}                                % 年级
+\newcommand{\zhuanye}{数学与应用数学（师范）}                  % 专业
+\newcommand{\minzi}{{\CJKfamily{kai}包小敏}}                   % 学生中文姓名
+\newcommand{\englishname}{Name of Student}                     % 学生英文姓名
+\newcommand{\jiaoshi}{\CJKfamily{kai}包小敏}                   % 指导教师姓名
+\renewcommand{\jiaocha}{{\CJKfamily{kai}交叉评阅教师}}         % 请在左边{}内填入交叉评阅教师的姓名
+\newcommand{\xuehao}{\CJKfamily{kai}222016314000000}           % 学号
+\newcommand{\nian}{\CJKfamily{kai}2020}                        % 毕业年份
+\newcommand{\nianxian}{十四}                                   % 已使用年数(=2019-2006)
+\newcommand{\kaitiriqi}{\CJKfamily{kai}2019年12月20日}         % 开题日期
+\newcommand{\tijiaoriqi}{\CJKfamily{kai}\today}                % 提交日期
+\newcommand{\dayinriqi}{\CJKfamily{kai}\today}                 % 打印日期
+%===============================================================
+% 若修改过程中某个文件不需修改，则将\includeonly中这个文件名注释掉可以加快编译速度。
+% 请用PDFLATEX编译，直接生成PDF文件。也可用 LATEX 编译，但速度可能会非常慢，有时甚至可能会出错。
+%===============================================================
+\includeonly{tables/coverpage,
+             tables/pingyue_1,
+             tables/pingyue_2,
+             tables/dabian,
+             biaoge/kaiti_1,
+             biaoge/kaiti_2,
+             fulu
+}
+%======================
+\makeindex
+
+\begin{document}
+\begin{titlepage}
+\include{tables/coverpage}
+\end{titlepage}
+%====================生=成=目=录===================================
+%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{roman}%
+\thispagestyle{plain}%
+%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\thispagestyle{plain}
+\newpage
+%==========================摘要===================================
+%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic} %
+\setcounter{page}{1}   %
+%%%%%%%%%%%%%%%%%%%%%%%%
+\input{abstract.tex}
+%=======================正文开始==================================
+\input{body}
+%=======================参考文献=================================%
+\input{bibfile}
+%=========================索引===================================%
+\printindex %如不要索引请将此行和下行注释掉
+\addcontentsline{toc}{section}{索引}
+%=========================致谢===================================%
+\input{thanks}
+%=========================附录===================================%
+%\begin{appendix}
+%\include{fulu}%如没有附录，请将这三句和下面的一句“\setcounter{page}{\thepage - 1}”都注释掉
+%\end{appendix}
+%\setcounter{page}{\thepage - 1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{endofThesis}
+%=======================开题报告一===============================%
+\include{biaoge/kaiti_1}
+%=======================开题报告二===============================%
+\include{biaoge/kaiti_2}
+%========================任务书==================================%
+%\include{biaoge/renwu}
+%=======================指导教师评阅表===========================%
+\include{tables/pingyue_1}
+%=======================交叉评阅表===============================%
+\include{tables/pingyue_2}
+%=======================答辩记录表===============================%
+\include{tables/dabian}
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%===========THE END OF PAPER============%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,143 @@
+\begin{theindex}
+
+  \item \CTeX, \hyperpage{1}
+  \item \CTeX  的安装, \hyperpage{3}
+  \item \CTeX  文件的编译, \hyperpage{4}
+  \item \CTeX 网站, \hyperpage{3}
+  \item \LaTeX, \hyperpage{2}
+  \item \LaTeX{} 汉化版, \hyperpage{3}
+
+  \indexspace
+
+  \item abstract.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item bibfile.tex, \hyperpage{2}
+  \item body.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item coverpage.tex, \hyperpage{3}
+
+  \indexspace
+
+  \item dabianchengji.tex, \hyperpage{2}
+  \item dabianjilu.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item jiaochageifen.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item kaiti\_1.tex, \hyperpage{2}
+  \item kaiti\_2.tex, \hyperpage{2}
+  \item Knuth, \hyperpage{3}
+
+  \indexspace
+
+  \item mytemplate.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item PDF阅读器, \hyperpage{5}
+  \item pingyue\_1.tex, \hyperpage{3}
+  \item pingyue\_2.tex, \hyperpage{3}
+
+  \indexspace
+
+  \item sumatraPDF, \hyperpage{5}
+  \item SWUthesis.sty, \hyperpage{3}
+
+  \indexspace
+
+  \item thanks.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item WYSIWYG, \hyperpage{3}
+  \item WYWIWYG, \hyperpage{3}
+
+  \indexspace
+
+  \item YAP, \hyperpage{4}
+
+  \indexspace
+
+  \item zhidaojiaoshigeifen.tex, \hyperpage{2}
+
+  \indexspace
+
+  \item 表格, \hyperpage{11}
+
+  \indexspace
+
+  \item 插图, \hyperpage{11}, \hyperpage{13}
+
+  \indexspace
+
+  \item 程序引入, \hyperpage{1}
+
+  \indexspace
+
+  \item 代码的插入, \hyperpage{15}
+
+  \indexspace
+
+  \item 多栏排版, \hyperpage{11}
+
+  \indexspace
+
+  \item 反射Gray码, \hyperpage{8}
+  \item 费尔马小定理, \hyperpage{8}
+
+  \indexspace
+
+  \item 附录, \hyperpage{15}
+
+  \indexspace
+
+  \item 公式, \hyperpage{12}
+
+  \indexspace
+
+  \item 交叉引用, \hyperpage{1}
+
+  \indexspace
+
+  \item 欧几里得算法, \hyperpage{8}
+  \item 欧拉定理, \hyperpage{7}
+
+  \indexspace
+
+  \item 书签, \hyperpage{5}
+  \item 数学环境, \hyperpage{7}
+
+  \indexspace
+
+  \item 素数, \hyperpage{8}
+  \item 算法标号, \hyperpage{8}
+  \item 算法的排版, \hyperpage{8}
+  \item 索引的生成, \hyperpage{5}
+  \item 所见即所得, \hyperpage{3}
+  \item 所想即所得, \hyperpage{3}
+
+  \indexspace
+
+  \item 图形插入, \hyperpage{1}
+
+  \indexspace
+
+  \item 文件夹, \hyperpage{1}
+    \subitem biaoge, \hyperpage{1}
+    \subitem codes, \hyperpage{1}
+    \subitem filesforteachers, \hyperpage{2}
+    \subitem preample, \hyperpage{1}
+    \subitem table, \hyperpage{1}
+
+  \indexspace
+
+  \item 引用, \hyperpage{13}
+
+\end{theindex}
